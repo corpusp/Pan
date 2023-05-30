@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/las-manos-de-baker-sujetando-y-presentando-pan-reci%C3%A9n-horneado-frente-un-horno-en-llamas-200071358.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav{
+    width: 70%;
+    background: aliceblue;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    background: aliceblue;
+}
+.apartados{
+    text-decoration: none;
+}
+#estructura{
+    width: 70%;
+    margin: auto;
+    color: white;
+}
+.zzz{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 20%;
+}
+.texto{
+    width: 70%;
+    height: calc(30em + 1vh);
+}
+.texto h1{
+    color: red;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+img:hover{
+    filter: contrast(2);
+}
+aside{
+    position: sticky;
+    top: 3em;
+    width: 30%;
+    z-index: 50;
+    height: 60vh;
+}
+footer{
+    display: block;
+    position: relative;
+    z-index: 90;
+    bottom: 0;
+}
+ul li , a{
+    text-decoration: none;
+    color: orange;
+    list-style: none;
+    font-size: 150%;
+}
